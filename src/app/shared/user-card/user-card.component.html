@@ -9,7 +9,7 @@
         {{ "userCard.userDescription" | translate }}
       </p>
       <div class="contact-btn">
-        <a mat-raised-button href="/assets/docs/spanish_resume.pdf"
+        <a mat-raised-button [href]="resumePath"
           ><mat-icon>cloud_download</mat-icon>CV</a
         >
         <button
