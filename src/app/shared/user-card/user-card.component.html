@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="image-container">
+    <img src="/assets/images/andres.jpg" alt="andres photo" />
+  </div>
+  <div class="user-data-container">
+    <h1>Andres Ucero</h1>
+    <div>
+      <p>
+        Ingeniero de Sistemas y Desarrollador Frontend Semi-senior. Motivado y
+        enfocado a asumir nuevos retos, especialmente en el ambito tecnologico
+      </p>
+      <div class="contact-btn">
+        <a mat-raised-button href="/assets/docs/spanish_resume.pdf"
+          ><mat-icon>cloud_download</mat-icon>CV</a
+        >
+        <button
+          mat-raised-button
+          color="primary"
+          (click)="goToLink('https://github.com/Andres241093')"
+        >
+          <div class="github-container">
+            <div class="github">
+              <img src="/assets/images/github.png" alt="github" />
+            </div>
+          </div>
+        </button>
+        <button
+          mat-raised-button
+          color="primary"
+          (click)="goToLink('https://www.linkedin.com/in/andresucero/')"
+        >
+          <div class="linkedin-container">
+            <div class="linkedin">
+              <img src="/assets/images/linkedin.png" alt="linkedin" />
+            </div>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
