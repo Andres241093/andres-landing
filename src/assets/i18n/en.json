@@ -1,0 +1,42 @@
+{
+	"lang": "en",
+	"userCard": {
+		"userDescription": "Systems Engineer and Semi-Senior Frontend Developer. Motivated and focused on taking on new challenges, especially in the technological field."
+	},
+	"projects": {
+		"title": "Projects",
+		"gameCatalog": "Game catalog",
+		"vegetableStore": "Vegetable store"
+	},
+	"experience": {
+		"title": "Experience",
+		"alaxatech": {
+			"title": "Frontend Developer / ALAXATECH",
+			"mode": "Perú - Remote",
+			"description1": "Development of a vehicle buying and selling application using the Angular framework with Server Side Rendering for SEO.",
+			"description2": "Implementation of the Scrum methodology."
+		},
+		"applaudo": {
+			"title": "Angular Developer / Applaudo Studios",
+			"mode": "San Salvador - Remote",
+			"description1": "Creation of wireframes using Draw.io.",
+			"description2": "Development of an app for password management and two-step authentication using the Angular framework.",
+			"description3": "Creation of an app for documenting the company's visual component library using the Angular framework (with Angular Material documentation as a reference).",
+			"description4": "Implementation of the Scrum methodology."
+		},
+		"unicomer": {
+			"title": "Angular Developer / Unicomer Group",
+			"mode": "San Salvador - Remote",
+			"description1": "Designing wireframes using Draw.io.",
+			"description2": "Development of an app for financial flow to provide credits to clients using the Angular framework and NgRx for state management.",
+			"description3": "Integration of the app into a container using Docker.",
+			"description4": "Implementation of the Scrum methodology."
+		},
+		"joga": {
+			"title": "React Developer / Joga Fantasy",
+			"mode": "USA - Remote",
+			"description1": "Development of an app using React and React Hooks where users can create their own soccer team and play with them.",
+			"description2": "Implementation of the Scrum methodology."
+		}
+	}
+}

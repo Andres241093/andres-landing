@@ -1,0 +1,42 @@
+{
+	"lang": "es",
+	"userCard": {
+		"userDescription": "Ingeniero de Sistemas y Desarrollador Frontend Semi-senior. Motivado y enfocado a asumir nuevos retos, especialmente en el ambito tecnologico."
+	},
+	"projects": {
+		"title": "Proyectos",
+		"gameCatalog": "Catálogo de juegos",
+		"vegetableStore": "Tienda de vegetales"
+	},
+	"experience": {
+		"title": "Experiencia",
+		"alaxatech": {
+			"title": "Frontend Developer / ALAXATECH",
+			"mode": "Perú - Remoto",
+			"description1": "Desarrollo de una app para compra y venta de vehículos usando el framework Angular con Server Side Rendering para el SEO.",
+			"description2": "Manejo de la metodología scrum."
+		},
+		"applaudo": {
+			"title": "Angular Developer / Applaudo Studios",
+			"mode": "San Salvador - Remoto",
+			"description1": "Desarrollo de wireframes usando Draw.io.",
+			"description2": "Desarrollo de una app para administrar contraseñas y dar autenticación en dos pasos usando el framework Angular",
+			"description3": "Desarrollo de una app para documentar la biblioteca de componentes visuales de la empresa usando el framework Angular (usando como referencia la documentación de Angular Material).",
+			"description4": "Manejo de la metodología scrum."
+		},
+		"unicomer": {
+			"title": "Angular Developer / Unicomer Group",
+			"mode": "San Salvador - Remoto",
+			"description1": "Diseñar wireframes usando Draw.io.",
+			"description2": "Desarrollo de una app sobre flujo financiero para otorgar créditos a clientes usando el framework Angular y NgRx para el state management.",
+			"description3": "Integrar la app en un contenedor usando Docker",
+			"description4": "Manejo de la metodología scrum."
+		},
+		"joga": {
+			"title": "React Developer / Joga Fantasy",
+			"mode": "USA - Remoto",
+			"description1": "Desarrollo de una app usando React y React Hooks en la que puedes crear tu propio equipo de fútbol y jugar con ellos.",
+			"description2": "Manejo de la metodología scrum."
+		}
+	}
+}

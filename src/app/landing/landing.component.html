@@ -1,5 +1,18 @@
 <div class="container">
   <div class="center-container">
+    <div class="lang">
+      <span
+        [ngClass]="currentLang === 'en' ? 'underline' : ''"
+        (click)="changeLang('en')"
+        >English</span
+      >
+      |
+      <span
+        [ngClass]="currentLang === 'es' ? 'underline' : ''"
+        (click)="changeLang('es')"
+        >Español</span
+      >
+    </div>
     <app-user-card></app-user-card>
     <hr />
     <app-projects></app-projects>
@@ -7,27 +20,3 @@
     <app-experience></app-experience>
   </div>
 </div>
-<!-- <div class="icon-desktop">
-            <a href="#">
-                <img src="https://raw.githubusercontent.com/gcazin/pure-css-windows-10-desktop/master/icons/code.png" alt="">
-                <span>Code</span>
-            </a>
-        </div> -->
-<!-- <div class="icon-desktop">
-            <a (click)="goToLink('https://andres-game-catalog.netlify.app/')">
-                <img [src]="'assets/images/gaming-catalog.ico'" alt="">
-                <span>Gaming Catalog (Angular)</span>
-            </a>
-        </div>
-        <div class="icon-desktop">
-            <a (click)="goToLink('https://andres-high-school-ngrx.netlify.app//')">
-                <img [src]="'assets/images/ngrx-high-school.ico'" alt="">
-                <span>NgRx High School (Angular)</span>
-            </a>
-        </div>
-        <div class="icon-desktop">
-            <a (click)="goToLink('https://shopping-car-react-andres.netlify.app/')">
-                <img [src]="'assets/images/shopping-car.png'" alt="">
-                <span>Shopping car (React)</span>
-            </a>
-        </div> -->
