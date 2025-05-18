@@ -8,4 +8,8 @@ import { TranslateModule } from '@ngx-translate/core';
   templateUrl: './experience.component.html',
   styleUrl: './experience.component.scss',
 })
-export class ExperienceComponent {}
+export class ExperienceComponent {
+   goToLink(url: string): void {
+    window.open(url, '_blank');
+  }
+}

@@ -1,7 +1,7 @@
 {
 	"lang": "es",
 	"userCard": {
-		"userDescription": "Ingeniero de Sistemas y Desarrollador Frontend. Motivado y enfocado a asumir nuevos retos, especialmente en el ámbito tecnológico."
+		"userDescription": "Ingeniero de Sistemas con más de 4 años de experiencia como Frontend Developer, especializado en Angular y tecnologías modernas de desarrollo web. Apasionado por crear soluciones innovadoras, con enfoque en calidad, rendimiento y experiencia de usuario"
 	},
 	"projects": {
 		"title": "Proyectos",
@@ -11,32 +11,30 @@
 	"experience": {
 		"title": "Experiencia",
 		"alaxatech": {
-			"title": "Frontend Developer / ALAXATECH",
+			"title": "ALAXATECH",
+			"role": "Frontend Developer",
 			"mode": "Perú - Remoto",
-			"description1": "Desarrollo de una app para compra y venta de vehículos usando el framework Angular con Server Side Rendering para el SEO.",
-			"description2": "Manejo de la metodología scrum."
+			"description1": "Mantenimiento correctivo y evolutivo del frontend de una aplicación de compra/venta de vehículos (Angular 18 + SSR)",
+			"description2": "Integración con API backend para extracción y guardado de datos.",
+			"description3": "Pruebas E2E con Cypress en el módulo de pagos (90% de cobertura)",
+			"description4": "Apoyo al equipo de QA y participación activa en equipos Scrum."
 		},
 		"applaudo": {
-			"title": "Angular Developer / Applaudo Studios",
-			"mode": "San Salvador - Remoto",
-			"description1": "Desarrollo de wireframes usando Draw.io.",
-			"description2": "Desarrollo de una app para administrar contraseñas y dar autenticación en dos pasos usando el framework Angular",
-			"description3": "Desarrollo de una app para documentar la biblioteca de componentes visuales de la empresa usando el framework Angular (usando como referencia la documentación de Angular Material).",
-			"description4": "Manejo de la metodología scrum."
+			"title": "Applaudo Studios",
+			"role": "Angular Developer",
+			"mode": "El Salvador - Remoto",
+			"description1": "Desarrollo del frontend de una app financiera para otorgar créditos (Angular + Angular Material).",
+			"description2": "Pruebas unitarias con Jasmine (100% de cobertura)",
+			"description3": "Mantenimiento de app interna para documentación de componentes visuales",
+			"description4": " Participación en dailys en inglés y colaboración con equipo internacional."
 		},
-		"unicomer": {
-			"title": "Angular Developer / Unicomer Group",
-			"mode": "San Salvador - Remoto",
-			"description1": "Diseñar wireframes usando Draw.io.",
-			"description2": "Desarrollo de una app sobre flujo financiero para otorgar créditos a clientes usando el framework Angular y NgRx para el state management.",
-			"description3": "Integrar la app en un contenedor usando Docker",
-			"description4": "Manejo de la metodología scrum."
-		},
-		"joga": {
-			"title": "React Developer / Joga Fantasy",
-			"mode": "USA - Remoto",
-			"description1": "Desarrollo de una app usando React y React Hooks en la que puedes crear tu propio equipo de fútbol y jugar con ellos.",
-			"description2": "Manejo de la metodología scrum."
+		"piston": {
+			"title": "Piston Posicion",
+			"role": "Angular Developer",
+			"mode": "Venezuela - Presencial",
+			"description1": "Desarrollo de interfaz para app de rastreo GPS con LeafletJS.",
+			"description2": "Integración de API backend y manejo de datos en tiempo real con WebSocket.",
+			"description3": "Diseño de interfaces en Draw.io."
 		}
 	}
 }

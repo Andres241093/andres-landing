@@ -15,11 +15,12 @@ import {
   styleUrl: './user-card.component.scss',
 })
 export class UserCardComponent implements OnInit {
-  resumePath = '/assets/docs/english_resume.pdf';
+  resumePath = '';
 
   constructor(private readonly _translateService: TranslateService) {}
 
   ngOnInit(): void {
+    this.resumePath = '/assets/docs/'+this.getResumeName();
     this._translateService.onLangChange.subscribe({
       next: (lang: LangChangeEvent) => {
         this.resumePath =
@@ -32,5 +33,12 @@ export class UserCardComponent implements OnInit {
 
   goToLink(url: string): void {
     window.open(url, '_blank');
+  }
+
+  private getResumeName(): 'spanish_resume.pdf' | 'english_resume.pdf' {
+    const lang = navigator.languages?.[0] || navigator.language;
+    const mainLang = lang.split('-')[0];
+
+    return mainLang === 'es' ? 'spanish_resume.pdf' : 'english_resume.pdf';
   }
 }
