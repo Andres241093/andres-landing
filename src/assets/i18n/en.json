@@ -10,6 +10,15 @@
 	},
 	"experience": {
 		"title": "Experience",
+    "epam": {
+  "title": "EPAM Systems",
+  "role": "Senior Software Engineer",
+  "mode": "Argentina - Remote",
+  "description1": "Developed and maintained web applications using Angular and PrimeNG.",
+  "description2": "Implemented features using Angular Signals, RxJS, and NgRx for state management.",
+  "description3": "Developed reusable Angular libraries, wrote unit tests with Angular Testing Library and Jasmine, and maintained E2E tests with Cypress.",
+  "description4": "Collaborated in English-speaking Scrum teams and leveraged GitHub Copilot and Kiro to improve development speed and productivity."
+    },
 		"alaxatech": {
 			"title": "ALAXATECH",
 			"role": "Frontend Developer",
